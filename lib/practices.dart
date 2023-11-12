@@ -1,0 +1,21 @@
+// import 'dart:io';
+//
+// void main() {
+//   stdout.write("What's your name? \n");
+//   String ? name= stdin.readLineSync();
+//   stdout.write("How old are you?\n");
+//   int age = int.parse(stdin.readLineSync()!);
+//   if(age>=18){
+//     print("Your name is $name! and your age is $age years. ");
+//   }else{
+//     print("Yor age is under 18 years.");
+//   }
+//
+// }
+void main(){
+
+  int salary =5000;
+  double totalSale=6000.00;
+
+  print(totalSale*10/100);
+}
