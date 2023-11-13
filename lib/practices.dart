@@ -12,10 +12,11 @@
 //   }
 //
 // }
+import 'dart:io';
 void main(){
+  String A; //
 
-  int salary =5000;
-  double totalSale=6000.00;
-
-  print(totalSale*10/100);
+  print("What's your name?\n");
+  A = stdin.readLineSync()!;
+  stdout.write("Hello $A! Nice to meet you.");
 }
