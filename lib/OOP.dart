@@ -1,15 +1,22 @@
 void main(){
-  Car car1 = Car();
-  car1.name = "BMW";
-  car1.mileage = 100;
-  print('${car1.name} ${car1.mileage}');
+ProductDetails productDetails =ProductDetails();
+productDetails.productName ="Buket";
+print(productDetails.productName);
 
+
+ProductDetails().title = "Marwoa";
+greetings(age: 30,name: "Khairul" );
+}
+class ProductDetails{
+  String? productName;
+  String? title;
+  double? price;
+  String? color;
 }
 
-class Car{
-  String? name;
-  int? mileage;
-  bool? isTruck;
-  String? model;
-  String? originCountry;
+
+
+greetings({ String name = "name", int age=0}){
+  // name: name;
+  // age: age;
 }
